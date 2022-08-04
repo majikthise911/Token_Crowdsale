@@ -1,0 +1,232 @@
+{
+	"compiler": {
+		"version": "0.5.5+commit.47a71e8f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "kasei_crowdsale_address",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "kasei_token_address",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "symbol",
+						"type": "string"
+					},
+					{
+						"name": "wallet",
+						"type": "address"
+					},
+					{
+						"name": "goal",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"KaseiCoinCrowdsale.sol": "KaseiCoinCrowdsaleDeployer"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"KaseiCoin.sol": {
+			"keccak256": "0x7e5855507be52a049a5b0eb0090d8fd1de1278da450d75c0a2736587cc29216f",
+			"urls": [
+				"bzzr://70fa5bae5fff37fa30a1ed430160ab262f8a695919a30e0b1ddacc8b9b0beedf"
+			]
+		},
+		"KaseiCoinCrowdsale.sol": {
+			"keccak256": "0x28ea3fd0df18e942923e60ba6d5ff7e606984f118b0d35490694fce124a0e315",
+			"urls": [
+				"bzzr://be8c2468aec1d7d26fc33f0d45de55f678ae42ff86961b04f927146aec3c4c5d"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/GSN/Context.sol": {
+			"keccak256": "0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061",
+			"urls": [
+				"bzzr://51482c01bddf23793bddee43b60ab9578a62948a4f2082def24ea792a553b055"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/access/Roles.sol": {
+			"keccak256": "0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb",
+			"urls": [
+				"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/access/roles/MinterRole.sol": {
+			"keccak256": "0xbe8eef6f2cb4e427f5c5d8a76865ccd06e55a4f1d6671ba312d45bfa705aedbf",
+			"urls": [
+				"bzzr://946a26eebf5d294534471d07c4dc449ce3123e9fc2994bdfcd99dff1d09cc1af"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol": {
+			"keccak256": "0xe612eb8a3023c1a4f4d7e2d0aaf7f19c25e9d772c46a6e95790ddb42ba7baa99",
+			"urls": [
+				"bzzr://3f11e0277a173ba437a448df0f1ab16a64b1b1dcd3f34019e052a7c5d14c1ea7"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/distribution/FinalizableCrowdsale.sol": {
+			"keccak256": "0x22ad427395c439878122cbfbf13e896fd48d1fad0c6fc889a36b4f1bf4743ff4",
+			"urls": [
+				"bzzr://1c725bc536a34c8ae31246c7c4327a2fe7abeb7686979516c1ab65c8959f71ec"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/distribution/PostDeliveryCrowdsale.sol": {
+			"keccak256": "0xe36a7e7cc13c7c63642e8f1a34beb43dd61cd6359f98093e7fab088206c18d0c",
+			"urls": [
+				"bzzr://33378546ce6c03904bc75b564d85dfdcd81be5ab2a91d58643f4f002430616c5"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/distribution/RefundableCrowdsale.sol": {
+			"keccak256": "0x51ff319b8ccbbed80ef2362ab98b473b705bf39d387610baadd7b9dd0353d85e",
+			"urls": [
+				"bzzr://5385067c9b5f762794d9c0733f210b5b6977d8caecb0221c8c5393fb79e6dd24"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/distribution/RefundablePostDeliveryCrowdsale.sol": {
+			"keccak256": "0xb48951d0d4ed06d06ac4b7889b7f585adf124d860107d96a24fc830f6ade9c8f",
+			"urls": [
+				"bzzr://ae308f5ea14ebf07f4235c3fb76b92b97589c73023b0619a5bb60cecc901f874"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/emission/MintedCrowdsale.sol": {
+			"keccak256": "0x343249b95ade6a20737b7f681a05a257f14a39b21043ff2e31d8e5d861d83777",
+			"urls": [
+				"bzzr://3a53c6bbb534d2f038289952e35a75bb572f5998582b1d47827907f027dd7fb4"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/validation/CappedCrowdsale.sol": {
+			"keccak256": "0x5ae16586a3b5e976aae1a08fdf109ead3840961aa0a1f5b4590d4adf5cdad3b5",
+			"urls": [
+				"bzzr://3128e606836af985a2c445aa5c5886c6ac6181d8edf565a2a2743fe502859ba2"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/validation/TimedCrowdsale.sol": {
+			"keccak256": "0x9407dd37cfed74aa107fd1614c478ba0a2bc3e084e9aa8fbd5a6f316c53aed3b",
+			"urls": [
+				"bzzr://196407d49d26f709494b573b06676eaa21b0019ebebd4e610a8b1276965a8067"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/math/SafeMath.sol": {
+			"keccak256": "0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076",
+			"urls": [
+				"bzzr://292843005e754e752644f767477ec5ad7a1ffc91ddb18c38b8079c62f3993cad"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/ownership/Secondary.sol": {
+			"keccak256": "0xb55d511ea1d79aa4ff7063ac50d134a47c6d3b43b0ee7163e9310c403a945888",
+			"urls": [
+				"bzzr://e12539a89d0db5576523780d97904d4e5031a8d1c6b74122968dd560cf4b4cf0"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/payment/escrow/ConditionalEscrow.sol": {
+			"keccak256": "0xc43492ecb8d0eb86ba1ecc3f50e5474021ba58ec14c004c41c6f6550e6ceafc0",
+			"urls": [
+				"bzzr://24eb091f7e2a1cd7583f2470432a0034f154d2ad988558b0a9672253de44fc0d"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/payment/escrow/Escrow.sol": {
+			"keccak256": "0xdb5c39b703e6c79e801e38efebe94c8cf3683bf369cc3131cb992fedd4157134",
+			"urls": [
+				"bzzr://08a75f1b184cd77cbf969203978e676d771e4255e7869433b4ea74f52797f669"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/payment/escrow/RefundEscrow.sol": {
+			"keccak256": "0x83d02d923d47755b0a1a16c6f97a31e0de8378c6bbac42e8d69f388d84749a6c",
+			"urls": [
+				"bzzr://c4700a8b29bf37d5d21b9287db7a766e88444b919b46cc1a45b27aadf1ed54bf"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0xb15af804e2bc97db51e4e103f13de9fe13f87e6b835d7a88c897966c0e58506e",
+			"urls": [
+				"bzzr://6200c125af376381ae6c5415b8f3c1cb83889be20a7a51d67ac607487a10313b"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol": {
+			"keccak256": "0x4a3a810b7ebe742e897e1fd428b3eeed2196d3acea58eaf9c566ed10d545d2ed",
+			"urls": [
+				"bzzr://729aefb3f89f616c954a0735f8b4dd8804bdd0351e96f8e904fdb3e78a109b6c"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Mintable.sol": {
+			"keccak256": "0xa2b957cf89692c504962afb7506999155f83385373f808243246cd5879de5940",
+			"urls": [
+				"bzzr://812521b94ef1bd30b0a93e14a97a0e79e2bf4cb607aa47c21c8177966a79fd1a"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0xe5bb0f57cff3e299f360052ba50f1ea0fff046df2be070b6943e0e3c3fdad8a9",
+			"urls": [
+				"bzzr://cf2d583b8dce38d0617fdcd65f2fd9f126fe17b7f683b5a515ea9d2762d8b062"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/SafeERC20.sol": {
+			"keccak256": "0x6f2c9955d65c522b80f4b8792f076512d2df947d2112cbc4d98a4781ed42ede2",
+			"urls": [
+				"bzzr://d2ff5aadcb697bc27ca3b0f6c40b4998e8cf0a1bd0f761d1df6d5981777841ae"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/utils/Address.sol": {
+			"keccak256": "0x1a8e5072509c5ea7365eb1d48030b9be865140c8fb779968da0a459a0e174a11",
+			"urls": [
+				"bzzr://4e1d23731da27602b8c552e54fb9976dadf8cf46a8f90a3c8c1b85fe044618b9"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/utils/ReentrancyGuard.sol": {
+			"keccak256": "0xb63221b23818d622bfd83d18e0968307e4fcb7a35536bdceded76e1cf8349acd",
+			"urls": [
+				"bzzr://35ed82f3c1174e1eb7d9ef351964024e535a992a5dbf4ff125a101aef441fd16"
+			]
+		}
+	},
+	"version": 1
+}
