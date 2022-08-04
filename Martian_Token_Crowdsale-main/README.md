@@ -4,16 +4,16 @@
 
 
 ## Table of content
-- [Background](https://github.com/Nithy29/Martian_Token_Crowdsale#background) 
-- [Overview of the project](https://github.com/Nithy29/Martian_Token_Crowdsale#overview-of-the-project) 
-- [Project Notes](https://github.com/Nithy29/Martian_Token_Crowdsale#Project-Notes) 
-- [Work Files](https://github.com/Nithy29/Martian_Token_Crowdsale#work-files) 
-- [Instructions Followed](https://github.com/Nithy29/Martian_Token_Crowdsale#instructions-followed)
-- [Software version control](https://github.com/Nithy29/Martian_Token_Crowdsale#software-version)
-    - [GitHub Work](https://github.com/Nithy29/Martian_Token_Crowdsale#github-works)
-    - [Installation Notes](https://github.com/Nithy29/Martian_Token_Crowdsale#installation-notes)
-    - [Setup Notes](https://github.com/Nithy29/Martian_Token_Crowdsale#setup-notes)
-- [License](https://github.com/Nithy29/Martian_Token_Crowdsale/blob/main/LICENSE)
+- [Background]https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main) 
+- [Overview of the project](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main) 
+- [Project Notes](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main) 
+- [Work Files](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main) 
+- [Instructions Followed](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main)
+- [Software version control](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main)
+    - [GitHub Work](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main)
+    - [Installation Notes](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main)
+    - [Setup Notes](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main)
+- [License](https://github.com/majikthise911/Token_Crowdsale/tree/main/Martian_Token_Crowdsale-main)
 
 
 ## Background
