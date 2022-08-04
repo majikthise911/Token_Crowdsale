@@ -14,9 +14,9 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, Time
     
     // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
     constructor(
-        uint256 rate,               // rate in TKNbits
+        uint256 rate,               // rate in Token bits
         address payable wallet,     // sale beneficiary
-        KaseiCoin token,            // the KaseiCoin itself that the KaseiCoinCrowdsale will work with
+        KaseiCoin token,            // the KaseiCoin itself that the KaseiCoinCrowdsale will deal with
         uint goal,                  // the crowdsale goal
         uint open,                  // the crowdsale opening time
         uint close                  // the crowdsale closing time
