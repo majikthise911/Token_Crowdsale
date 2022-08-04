@@ -12,7 +12,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 // * MintedCrowdsale
 contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, TimedCrowdsale, RefundablePostDeliveryCrowdsale {     // UPDATED THE CONTRACT SIGNATURE TO ADD INHERITANCE
     
-    // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
+    // Initiate parameters for all of the features of the crowdsale, fore example the `rate`, `wallet` for fundraising, and `token`.
     constructor(
         uint256 rate,               // rate in Token bits
         address payable wallet,     // sale beneficiary
