@@ -1,7 +1,5 @@
 # Token Crowdsale
 
-![alt=""](Images/application-image.png)
-
 ## Background
 
 We will create a new cryptocurrency named **KaseiCoin**. (Kasei means Mars in Japanese.)
