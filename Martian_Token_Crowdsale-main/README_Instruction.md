@@ -226,14 +226,5 @@ You can also record your interactions with the executed contract as a short vide
 
 * To create an animated GIF, you can use [Recordit](https://recordit.co/) on either macOS or Windows.
 
----
 
-## Submission
 
-* Upload the files for this assignment to your GitHub repository.
-
-* Submit the link to your GitHub repo on Bootcamp Spot.
-
----
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
