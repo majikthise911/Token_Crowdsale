@@ -1,6 +1,4 @@
-# Unit 21: Martian Token Crowdsale
-
-![alt=""](Images/application-image.png)
+# Token Crowdsale
 
 
 ## Table of content
@@ -146,6 +144,5 @@ now you can find the folder ERC20
     - Currency Symbol - USD in this case. You can choose what ever you want
 
 
-📔 Contact me: 📩 sarvanvel@gmail.com
 
     
